@@ -1,5 +1,5 @@
 '''
-I have a short task for you, you will build a very simple web search engine in python.
+A very simple web search engine in python.
 Implement a method index(urls), which – given a list of input URLs – 
 
 –  downloads each web page 
@@ -12,9 +12,7 @@ Implement a method index(urls), which – given a list of input URLs –
 
 run your method to index a list of URLs
 
-Implement a method search(query), which – given a sequence of query words – out- puts a ranked list of web pages in the index based on the cosine distance measure between the bag-of-words representations of queries and web pages. 
-
-Search your index with a few queries like “colosseum”, “hungary”, or “tower”. What results/problems do you observe? State three steps with which you could improve your search results. Ping me incase of any query. You can use numpy or any other library you want.
+Implemented a method search(query), which – given a sequence of query words – out- puts a ranked list of web pages in the index based on the cosine distance measure between the bag-of-words representations of queries and web pages. 
 '''
 
 
